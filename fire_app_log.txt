@@ -594,3 +594,28 @@ Load paths:
 2013-07-27 22:27:46 overwrite css/style.css 
 2013-07-27 22:28:10 overwrite css/style.css 
 2013-07-27 22:28:15 overwrite css/style.css 
+2013-07-27 22:31:00     error sass/style.scss (Line 111: Invalid CSS after "  $img-size: ": expected expression (e.g. 1px, bold), was ";")
+2013-07-27 22:31:00 overwrite css/style.css 
+2013-07-27 22:31:04     error sass/style.scss (Line 112: Undefined variable: "$img-size".)
+2013-07-27 22:31:04 overwrite css/style.css 
+2013-07-27 22:31:12 overwrite css/style.css 
+2013-07-27 22:31:20 overwrite css/style.css 
+2013-07-27 22:31:28 overwrite css/style.css 
+2013-07-27 22:31:46 overwrite css/style.css 
+2013-07-27 22:32:15 overwrite css/style.css 
+2013-07-27 22:32:37 overwrite css/style.css 
+2013-07-27 22:32:39 overwrite css/style.css 
+2013-07-27 22:32:50 overwrite css/style.css 
+2013-07-27 22:33:04 overwrite css/style.css 
+2013-07-27 22:33:18 overwrite css/style.css 
+2013-07-27 22:33:44 overwrite css/style.css 
+2013-07-27 22:35:20 overwrite css/style.css 
+2013-07-27 22:35:29 identical css/style.css 
+2013-07-27 22:35:56 overwrite css/style.css 
+2013-07-27 22:35:59 overwrite css/style.css 
+2013-07-27 22:36:37 identical css/style.css 
+2013-07-27 22:37:03 overwrite css/style.css 
+2013-07-27 22:37:08 overwrite css/style.css 
+2013-07-27 22:37:12 overwrite css/style.css 
+2013-07-27 22:37:17 overwrite css/style.css 
+2013-07-27 22:37:57 overwrite js/app.js

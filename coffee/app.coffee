@@ -3,7 +3,7 @@ $ ->
   $('.main-block-1').click ->
     console.log "aaa"
 
-  $('.touch-area-head').createVegetable('banana')
+  $('.touch-area-head').createVegetable('banana', 100)
   $('.touch-area-chest').createVegetable('bean')
   $('.touch-area-belly').createVegetable('egg')
   $('.touch-area-hand-left').createVegetable('fish')

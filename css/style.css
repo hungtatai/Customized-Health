@@ -4,13 +4,13 @@
   -moz-user-select: none;
   user-select: none;
   display: inline-block;
-  width: 30px;
-  height: 30px;
+  width: 2.5em;
+  height: 2.5em;
 }
 /* line 19, ../sass/style.scss */
 [class^="food"] img {
-  width: 30px;
-  height: 30px;
+  width: 2.5em;
+  height: 2.5em;
 }
 
 /* line 40, ../sass/style.scss */
@@ -88,20 +88,24 @@
   -webkit-user-select: none;
   -moz-user-select: none;
   user-select: none;
-  margin-left: 10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
-/* line 113, ../sass/style.scss */
+/* line 117, ../sass/style.scss */
 .human-boy .human-img {
   margin-top: 6%;
+  margin-left: 10%;
   width: 80%;
 }
-/* line 118, ../sass/style.scss */
+/* line 123, ../sass/style.scss */
 .human-boy .touch-area-head, .human-boy .touch-area-chest, .human-boy .touch-area-belly, .human-boy .touch-area-hand-left, .human-boy .touch-area-hand-right, .human-boy .touch-area-leg-left, .human-boy .touch-area-leg-right {
   position: absolute;
+  margin-left: 10%;
   display: block;
   overflow: hidden;
 }
-/* line 126, ../sass/style.scss */
+/* line 132, ../sass/style.scss */
 .human-boy .touch-area-head {
   display: block;
   left: 11%;
@@ -109,7 +113,7 @@
   width: 60%;
   height: 30%;
 }
-/* line 132, ../sass/style.scss */
+/* line 138, ../sass/style.scss */
 .human-boy .touch-area-chest {
   display: block;
   left: 28%;
@@ -117,7 +121,7 @@
   width: 25%;
   height: 9%;
 }
-/* line 138, ../sass/style.scss */
+/* line 144, ../sass/style.scss */
 .human-boy .touch-area-belly {
   display: block;
   left: 28%;
@@ -125,7 +129,7 @@
   width: 25%;
   height: 15%;
 }
-/* line 144, ../sass/style.scss */
+/* line 150, ../sass/style.scss */
 .human-boy .touch-area-hand-left {
   display: block;
   left: 15%;
@@ -133,7 +137,7 @@
   width: 12%;
   height: 22%;
 }
-/* line 150, ../sass/style.scss */
+/* line 156, ../sass/style.scss */
 .human-boy .touch-area-hand-right {
   display: block;
   left: 54%;
@@ -141,7 +145,7 @@
   width: 12%;
   height: 22%;
 }
-/* line 156, ../sass/style.scss */
+/* line 162, ../sass/style.scss */
 .human-boy .touch-area-leg-left {
   display: block;
   left: 26%;
@@ -149,7 +153,7 @@
   width: 13%;
   height: 10%;
 }
-/* line 162, ../sass/style.scss */
+/* line 168, ../sass/style.scss */
 .human-boy .touch-area-leg-right {
   display: block;
   left: 42%;

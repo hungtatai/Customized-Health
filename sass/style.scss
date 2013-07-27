@@ -12,7 +12,7 @@ $cover-color: rgba(255, 0, 0, 0.5);
   //top: 10%;
   @include user-select(none); 
   display: inline-block;
-  $size: 30px;
+  $size: 2.5em;
   width: $size;
   height: $size;
 
@@ -108,15 +108,21 @@ $main-block-top: 20%;
   //background-position: center;
   //@include background-size(cover);
   @include user-select(none); 
-  $img-size: 80%;
-  margin-left: (100% - $img-size) / 2;
+  
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+
+  $size: 80%;
   & .human-img {
     margin-top: 6%;
-    width: $img-size;
+    margin-left: (100% - $size) / 2;
+    width: $size;
   }
 
   %touch-area {
     position: absolute;
+    margin-left: (100% - $size) / 2;
     display: block;
     overflow: hidden;
     //background: $cover-color;
