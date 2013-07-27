@@ -4,13 +4,13 @@
   -moz-user-select: none;
   user-select: none;
   display: inline-block;
-  width: 8vw;
-  height: 8vw;
+  width: 30px;
+  height: 30px;
 }
 /* line 19, ../sass/style.scss */
 [class^="food"] img {
-  width: 8vw;
-  height: 8vw;
+  width: 30px;
+  height: 30px;
 }
 
 /* line 40, ../sass/style.scss */
@@ -21,7 +21,7 @@
 /* id */
 /* line 45, ../sass/style.scss */
 #health-input-view {
-  padding: 5vh 6vw;
+  padding: 5vh 6%;
 }
 
 /* main */
@@ -29,15 +29,15 @@
 .main-block-1, .main-block-2, .main-block-3, .main-block-4 {
   position: absolute;
   text-align: center;
-  width: 30vw;
-  height: 30vw;
-  padding: 2vw;
+  width: 30%;
+  height: 30%;
+  padding: 2%;
   background: white;
-  -webkit-border-radius: 5vw;
-  -moz-border-radius: 5vw;
-  -ms-border-radius: 5vw;
-  -o-border-radius: 5vw;
-  border-radius: 5vw;
+  -webkit-border-radius: 5%;
+  -moz-border-radius: 5%;
+  -ms-border-radius: 5%;
+  -o-border-radius: 5%;
+  border-radius: 5%;
   -webkit-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
@@ -48,38 +48,38 @@
 /* line 65, ../sass/style.scss */
 .main-block-1 [class^="icon-"], .main-block-2 [class^="icon-"], .main-block-3 [class^="icon-"], .main-block-4 [class^="icon-"] {
   display: inline-block;
-  padding-top: 2vw;
-  font-size: 17vw;
+  padding-top: 2%;
+  font-size: 17%;
 }
 /* line 71, ../sass/style.scss */
 .main-block-1 label, .main-block-2 label, .main-block-3 label, .main-block-4 label {
   display: block;
-  padding-top: 2vw;
-  font-size: 5vw;
+  padding-top: 2%;
+  font-size: 5%;
 }
 
 /* line 80, ../sass/style.scss */
 .main-block-1 {
-  left: 12vw;
-  top: 30vw;
+  left: 12%;
+  top: 30%;
 }
 
 /* line 85, ../sass/style.scss */
 .main-block-2 {
-  right: 12vw;
-  top: 30vw;
+  right: 12%;
+  top: 30%;
 }
 
 /* line 90, ../sass/style.scss */
 .main-block-3 {
-  left: 12vw;
-  top: 72vw;
+  left: 12%;
+  top: 72%;
 }
 
 /* line 95, ../sass/style.scss */
 .main-block-4 {
-  right: 12vw;
-  top: 72vw;
+  right: 12%;
+  top: 72%;
 }
 
 /* reciple */
@@ -88,12 +88,12 @@
   -webkit-user-select: none;
   -moz-user-select: none;
   user-select: none;
-  margin-left: 10vw;
+  margin-left: 10%;
 }
 /* line 109, ../sass/style.scss */
 .human-boy .human-img {
-  margin-top: 6vw;
-  width: 80vw;
+  margin-top: 6%;
+  width: 80%;
 }
 /* line 114, ../sass/style.scss */
 .human-boy .touch-area-head, .human-boy .touch-area-chest, .human-boy .touch-area-belly, .human-boy .touch-area-hand-left, .human-boy .touch-area-hand-right, .human-boy .touch-area-leg-left, .human-boy .touch-area-leg-right {
@@ -104,56 +104,56 @@
 /* line 122, ../sass/style.scss */
 .human-boy .touch-area-head {
   display: block;
-  left: 10vw;
-  top: 40vw;
-  width: 60vw;
-  height: 35vw;
+  left: 11%;
+  top: 30%;
+  width: 60%;
+  height: 30%;
 }
 /* line 128, ../sass/style.scss */
 .human-boy .touch-area-chest {
   display: block;
-  left: 28vw;
-  top: 76vw;
-  width: 25vw;
-  height: 14vw;
+  left: 28%;
+  top: 61%;
+  width: 25%;
+  height: 9%;
 }
 /* line 134, ../sass/style.scss */
 .human-boy .touch-area-belly {
   display: block;
-  left: 28vw;
-  top: 91vw;
-  width: 25vw;
-  height: 20vw;
+  left: 28%;
+  top: 71%;
+  width: 25%;
+  height: 15%;
 }
 /* line 140, ../sass/style.scss */
 .human-boy .touch-area-hand-left {
   display: block;
-  left: 15vw;
-  top: 76vw;
-  width: 12vw;
-  height: 27vw;
+  left: 15%;
+  top: 61%;
+  width: 12%;
+  height: 22%;
 }
 /* line 146, ../sass/style.scss */
 .human-boy .touch-area-hand-right {
   display: block;
-  left: 54vw;
-  top: 76vw;
-  width: 12vw;
-  height: 27vw;
+  left: 54%;
+  top: 61%;
+  width: 12%;
+  height: 22%;
 }
 /* line 152, ../sass/style.scss */
 .human-boy .touch-area-leg-left {
   display: block;
-  left: 26vw;
-  top: 112vw;
-  width: 13vw;
-  height: 10vw;
+  left: 26%;
+  top: 87%;
+  width: 13%;
+  height: 10%;
 }
 /* line 158, ../sass/style.scss */
 .human-boy .touch-area-leg-right {
   display: block;
-  left: 42vw;
-  top: 112vw;
-  width: 13vw;
-  height: 10vw;
+  left: 42%;
+  top: 87%;
+  width: 13%;
+  height: 10%;
 }

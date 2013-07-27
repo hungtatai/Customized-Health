@@ -16,9 +16,9 @@ $.fn.randomRotate = ->
 $.fn.randomCreateVegetable = (veg_name, n = 30) ->
   veg = $("<div class=\"food\"> <img src=\"images/food/#{veg_name}.png\" /> </div>")
   for i in [1..n]
-    left = Math.random() * px2vw($(@).width())
-    top = Math.random() * px2vw($(@).height())
-    veg_t = veg.clone().randomRotate().css('left', left+'vw').css('top', top+'vw')
+    left = Math.random() * $(@).width()
+    top = Math.random() * $(@).height()
+    veg_t = veg.clone().randomRotate().css('left', left).css('top', top)
     $(@).append(veg_t)
   @
 

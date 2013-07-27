@@ -27,9 +27,9 @@ $.fn.randomCreateVegetable = function(veg_name, n) {
   }
   veg = $("<div class=\"food\"> <img src=\"images/food/" + veg_name + ".png\" /> </div>");
   for (i = _i = 1; 1 <= n ? _i <= n : _i >= n; i = 1 <= n ? ++_i : --_i) {
-    left = Math.random() * px2vw($(this).width());
-    top = Math.random() * px2vw($(this).height());
-    veg_t = veg.clone().randomRotate().css('left', left + 'vw').css('top', top + 'vw');
+    left = Math.random() * $(this).width();
+    top = Math.random() * $(this).height();
+    veg_t = veg.clone().randomRotate().css('left', left).css('top', top);
     $(this).append(veg_t);
   }
   return this;

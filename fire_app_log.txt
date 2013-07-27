@@ -513,3 +513,26 @@ Load paths:
 2013-07-27 21:23:07 overwrite js/jquery-plugin.js
 2013-07-27 21:24:26 overwrite css/style.css 
 2013-07-27 21:24:55 overwrite css/style.css 
+2013-07-27 21:43:34 overwrite css/style.css 
+2013-07-27 21:46:34 overwrite js/jquery-plugin.js
+2013-07-27 21:46:44 overwrite js/jquery-plugin.js
+2013-07-27 21:48:46 overwrite css/style.css 
+2013-07-27 21:49:22 overwrite css/style.css 
+2013-07-27 21:50:25 overwrite css/style.css 
+2013-07-27 21:50:28 overwrite css/style.css 
+2013-07-27 21:50:31 overwrite css/style.css 
+2013-07-27 21:50:38 overwrite css/style.css 
+2013-07-27 21:50:42 overwrite css/style.css 
+2013-07-27 21:51:01 overwrite css/style.css 
+2013-07-27 21:51:21 overwrite css/style.css 
+2013-07-27 21:51:50 overwrite css/style.css 
+2013-07-27 21:51:57 overwrite css/style.css 
+2013-07-27 21:52:12 overwrite css/style.css 
+2013-07-27 21:52:25 overwrite css/style.css 
+2013-07-27 21:52:52 overwrite css/style.css 
+2013-07-27 21:53:12 overwrite css/style.css 
+2013-07-27 21:53:18     error sass/style.scss (Line 159: Invalid CSS after "...ouch-area87    ": expected "}", was "@include pos(42...")
+2013-07-27 21:53:18 overwrite css/style.css 
+2013-07-27 21:53:24 overwrite css/style.css 
+2013-07-27 21:53:39 overwrite css/style.css 
+2013-07-27 21:53:51 overwrite css/style.css 
