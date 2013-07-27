@@ -3,8 +3,14 @@
   background: url('/images/bg_wood.png?1374137898');
 }
 
+/* id */
+/* line 10, ../sass/style.scss */
+#health-input-view {
+  padding: 2vw;
+}
+
 /* main */
-/* line 12, ../sass/style.scss */
+/* line 16, ../sass/style.scss */
 .main-block, .main-block-1, .main-block-2, .main-block-3, .main-block-4 {
   position: absolute;
   text-align: center;
@@ -24,38 +30,38 @@
   -moz-user-select: none;
   user-select: none;
 }
-/* line 26, ../sass/style.scss */
+/* line 30, ../sass/style.scss */
 .main-block [class^="icon-"], .main-block-1 [class^="icon-"], .main-block-2 [class^="icon-"], .main-block-3 [class^="icon-"], .main-block-4 [class^="icon-"] {
   display: inline-block;
   padding-top: 2vw;
   font-size: 17vw;
 }
-/* line 32, ../sass/style.scss */
+/* line 36, ../sass/style.scss */
 .main-block label, .main-block-1 label, .main-block-2 label, .main-block-3 label, .main-block-4 label {
   display: block;
   padding-top: 2vw;
   font-size: 5vw;
 }
 
-/* line 41, ../sass/style.scss */
+/* line 45, ../sass/style.scss */
 .main-block-1 {
   left: 12vw;
   top: 30vw;
 }
 
-/* line 46, ../sass/style.scss */
+/* line 50, ../sass/style.scss */
 .main-block-2 {
   right: 12vw;
   top: 30vw;
 }
 
-/* line 51, ../sass/style.scss */
+/* line 55, ../sass/style.scss */
 .main-block-3 {
   left: 12vw;
   top: 72vw;
 }
 
-/* line 56, ../sass/style.scss */
+/* line 60, ../sass/style.scss */
 .main-block-4 {
   right: 12vw;
   top: 72vw;

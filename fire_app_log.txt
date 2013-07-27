@@ -209,3 +209,8 @@ Load paths:
 2013-07-27 17:49:56 overwrite css/style.css 
 2013-07-27 17:50:05 overwrite css/style.css 
 2013-07-27 17:50:07 identical css/style.css 
+2013-07-27 18:07:36 overwrite css/style.css 
+2013-07-27 18:07:54     error sass/style.scss (Line 10: Invalid CSS after "#": expected id name, was "/* main */")
+2013-07-27 18:07:54 overwrite css/style.css 
+2013-07-27 18:08:00 overwrite css/style.css 
+2013-07-27 18:08:12 overwrite css/style.css 
