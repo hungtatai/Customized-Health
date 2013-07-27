@@ -1,0 +1,1 @@
+{"mtime":1374918454,"js":"(function() {\n  $(function() {\n    return $('.main-block-1').click(function() {\n      return console.log(\"aaa\");\n    });\n  });\n\n}).call(this);\n"}

@@ -1,0 +1,10 @@
+
+.content {
+  &.hide-nav { 
+    bottom: 0px !important;
+  }
+  &.hide-header {
+    top: 0px !important;
+  }
+
+}

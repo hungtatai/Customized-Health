@@ -3,3 +3,209 @@
 2013-07-27 14:09:16    remove .sass-cache/ 
 2013-07-27 14:09:17 directory css/ 
 2013-07-27 14:09:20    create css/app.css 
+2013-07-27 14:14:02     error sass/app.scss (Line 3: File to import not found or unreadable: font-awesome.min.
+Load paths:
+  /Users/Honda/Develop/hackathon/baidu/sass
+  /Users/Honda/Develop/handlino/FireApp/packages/osx/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Users/Honda/Develop/handlino/FireApp/packages/osx/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Users/Honda/Develop/handlino/FireApp/packages/osx/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Users/Honda/Develop/handlino/FireApp/packages/osx/Fire.app/Contents/Resources/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Users/Honda/Develop/handlino/FireApp/packages/osx/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Users/Honda/Develop/handlino/FireApp/packages/osx/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  /Users/Honda/Develop/handlino/FireApp/packages/osx/Fire.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.1/vendor/assets/stylesheets
+  /Users/Honda/Develop/handlino/FireApp/packages/osx/Fire.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.5/sass
+  /Users/Honda/Develop/handlino/FireApp/packages/osx/Fire.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.1.5/scss
+  Compass::SpriteImporter
+  /Users/Honda/Develop/handlino/FireApp/packages/vendor/assets/stylesheets)
+2013-07-27 14:14:03 overwrite css/app.css 
+2013-07-27 14:14:05     error sass/app.scss (Line 3: File to import not found or unreadable: font-awesome.min.
+Load paths:
+  /Users/Honda/Develop/hackathon/baidu/sass
+  /Users/Honda/Develop/handlino/FireApp/packages/osx/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Users/Honda/Develop/handlino/FireApp/packages/osx/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Users/Honda/Develop/handlino/FireApp/packages/osx/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Users/Honda/Develop/handlino/FireApp/packages/osx/Fire.app/Contents/Resources/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Users/Honda/Develop/handlino/FireApp/packages/osx/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Users/Honda/Develop/handlino/FireApp/packages/osx/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  /Users/Honda/Develop/handlino/FireApp/packages/osx/Fire.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.1/vendor/assets/stylesheets
+  /Users/Honda/Develop/handlino/FireApp/packages/osx/Fire.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.5/sass
+  /Users/Honda/Develop/handlino/FireApp/packages/osx/Fire.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.1.5/scss
+  Compass::SpriteImporter
+  /Users/Honda/Develop/handlino/FireApp/packages/vendor/assets/stylesheets)
+2013-07-27 14:14:05 identical css/app.css 
+2013-07-27 14:16:09     error sass/app.scss (Line 3: File to import not found or unreadable: font-awesome.min.
+Load paths:
+  /Users/Honda/Develop/hackathon/baidu/sass
+  /Users/Honda/Develop/handlino/FireApp/packages/osx/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Users/Honda/Develop/handlino/FireApp/packages/osx/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Users/Honda/Develop/handlino/FireApp/packages/osx/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Users/Honda/Develop/handlino/FireApp/packages/osx/Fire.app/Contents/Resources/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Users/Honda/Develop/handlino/FireApp/packages/osx/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Users/Honda/Develop/handlino/FireApp/packages/osx/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  /Users/Honda/Develop/handlino/FireApp/packages/osx/Fire.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.1/vendor/assets/stylesheets
+  /Users/Honda/Develop/handlino/FireApp/packages/osx/Fire.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.5/sass
+  /Users/Honda/Develop/handlino/FireApp/packages/osx/Fire.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.1.5/scss
+  Compass::SpriteImporter
+  /Users/Honda/Develop/handlino/FireApp/packages/vendor/assets/stylesheets)
+2013-07-27 14:16:09 identical css/app.css 
+2013-07-27 14:19:32     error sass/app.scss (Line 3: File to import not found or unreadable: font-awesome.min.
+Load paths:
+  /Users/Honda/Develop/hackathon/baidu/sass
+  /Users/Honda/Develop/handlino/FireApp/packages/osx/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Users/Honda/Develop/handlino/FireApp/packages/osx/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Users/Honda/Develop/handlino/FireApp/packages/osx/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Users/Honda/Develop/handlino/FireApp/packages/osx/Fire.app/Contents/Resources/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Users/Honda/Develop/handlino/FireApp/packages/osx/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Users/Honda/Develop/handlino/FireApp/packages/osx/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  /Users/Honda/Develop/handlino/FireApp/packages/osx/Fire.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.1/vendor/assets/stylesheets
+  /Users/Honda/Develop/handlino/FireApp/packages/osx/Fire.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.5/sass
+  /Users/Honda/Develop/handlino/FireApp/packages/osx/Fire.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.1.5/scss
+  Compass::SpriteImporter
+  /Users/Honda/Develop/handlino/FireApp/packages/vendor/assets/stylesheets)
+2013-07-27 14:19:32 overwrite css/app.css 
+2013-07-27 14:19:33    create css/font-awesome.css 
+2013-07-27 14:19:35     error sass/app.scss (Line 3: File to import not found or unreadable: font-awesome.min.
+Load paths:
+  /Users/Honda/Develop/hackathon/baidu/sass
+  /Users/Honda/Develop/handlino/FireApp/packages/osx/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Users/Honda/Develop/handlino/FireApp/packages/osx/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Users/Honda/Develop/handlino/FireApp/packages/osx/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Users/Honda/Develop/handlino/FireApp/packages/osx/Fire.app/Contents/Resources/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Users/Honda/Develop/handlino/FireApp/packages/osx/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Users/Honda/Develop/handlino/FireApp/packages/osx/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  /Users/Honda/Develop/handlino/FireApp/packages/osx/Fire.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.1/vendor/assets/stylesheets
+  /Users/Honda/Develop/handlino/FireApp/packages/osx/Fire.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.5/sass
+  /Users/Honda/Develop/handlino/FireApp/packages/osx/Fire.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.1.5/scss
+  Compass::SpriteImporter
+  /Users/Honda/Develop/handlino/FireApp/packages/vendor/assets/stylesheets)
+2013-07-27 14:19:36 identical css/app.css 
+2013-07-27 14:19:36     error sass/app.scss (Line 3: File to import not found or unreadable: font-awesome.min.
+Load paths:
+  /Users/Honda/Develop/hackathon/baidu/sass
+  /Users/Honda/Develop/handlino/FireApp/packages/osx/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/blueprint/stylesheets
+  /Users/Honda/Develop/handlino/FireApp/packages/osx/Fire.app/Contents/Resources/lib/ruby/compass_0.12/compass-0.12.2/frameworks/compass/stylesheets
+  /Users/Honda/Develop/handlino/FireApp/packages/osx/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-960-plugin-f4bfe8555a7d2cae09bc/stylesheets
+  /Users/Honda/Develop/handlino/FireApp/packages/osx/Fire.app/Contents/Resources/lib/ruby/compass_extensions/heygrady-compass-html5-boilerplate-4cc8815/stylesheets
+  /Users/Honda/Develop/handlino/FireApp/packages/osx/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-h5bp/stylesheets
+  /Users/Honda/Develop/handlino/FireApp/packages/osx/Fire.app/Contents/Resources/lib/ruby/compass_extensions/compass-normalize-1.4.3/stylesheets
+  /Users/Honda/Develop/handlino/FireApp/packages/osx/Fire.app/Contents/Resources/lib/ruby/compass_extensions/bootstrap-sass-2.3.1.1/vendor/assets/stylesheets
+  /Users/Honda/Develop/handlino/FireApp/packages/osx/Fire.app/Contents/Resources/lib/ruby/compass_extensions/susy-1.0.5/sass
+  /Users/Honda/Develop/handlino/FireApp/packages/osx/Fire.app/Contents/Resources/lib/ruby/compass_extensions/zurb-foundation-4.1.5/scss
+  Compass::SpriteImporter
+  /Users/Honda/Develop/handlino/FireApp/packages/vendor/assets/stylesheets)
+2013-07-27 14:19:36 identical css/app.css 
+2013-07-27 14:19:48 overwrite css/app.css 
+2013-07-27 14:19:54 overwrite css/app.css 
+2013-07-27 14:21:36    create css/style.css 
+2013-07-27 14:21:44 overwrite css/style.css 
+2013-07-27 14:21:44 overwrite css/app.css 
+2013-07-27 14:23:18    create css/app.css 
+2013-07-27 14:24:43    create css/style.css 
+2013-07-27 14:27:43    create js/app.js
+2013-07-27 14:27:50 overwrite js/app.js
+2013-07-27 16:25:12 overwrite css/style.css 
+2013-07-27 16:25:28     error sass/style.scss (Line 6: Invalid CSS after "  @include": expected identifier, was "}")
+2013-07-27 16:25:28 overwrite css/style.css 
+2013-07-27 16:25:54     error sass/style.scss (Line 5: Invalid CSS after "...rl("wood.png"))": expected "}", was "l")
+2013-07-27 16:25:54 overwrite css/style.css 
+2013-07-27 16:25:57 overwrite css/style.css 
+2013-07-27 16:27:01 identical css/style.css 
+2013-07-27 16:30:27 identical css/style.css 
+2013-07-27 16:30:30 overwrite css/style.css 
+2013-07-27 16:32:11 overwrite css/style.css 
+2013-07-27 16:33:53    create js/ratchet-tab.js
+2013-07-27 16:34:43    create js/ratchet-patch.js
+2013-07-27 16:37:38    create css/ratchet-patch.css 
+2013-07-27 16:38:38 overwrite css/ratchet-patch.css 
+2013-07-27 16:43:34    create css/app.css 
+2013-07-27 16:44:56 overwrite css/style.css 
+2013-07-27 16:45:27 overwrite css/style.css 
+2013-07-27 16:46:24 identical css/style.css 
+2013-07-27 16:47:07     error sass/style.scss (Line 16: Undefined mixin 'broder-radius'.)
+2013-07-27 16:47:07 overwrite css/style.css 
+2013-07-27 16:47:26     error sass/style.scss (Line 16: Undefined mixin 'broder-radius'.)
+2013-07-27 16:47:26 identical css/style.css 
+2013-07-27 16:47:32     error sass/style.scss (Line 16: Undefined mixin 'broder-radius'.)
+2013-07-27 16:47:32 identical css/style.css 
+2013-07-27 16:48:12 overwrite css/style.css 
+2013-07-27 16:48:16 identical css/style.css 
+2013-07-27 16:48:26 overwrite css/style.css 
+2013-07-27 16:48:34 overwrite css/style.css 
+2013-07-27 16:48:40 overwrite css/style.css 
+2013-07-27 16:48:58 overwrite css/style.css 
+2013-07-27 16:49:10 overwrite css/style.css 
+2013-07-27 16:49:15 overwrite css/style.css 
+2013-07-27 16:50:13 overwrite css/style.css 
+2013-07-27 16:50:17 identical css/style.css 
+2013-07-27 16:50:48 overwrite css/style.css 
+2013-07-27 16:51:11 overwrite css/style.css 
+2013-07-27 16:51:47 overwrite css/style.css 
+2013-07-27 16:52:21 overwrite css/style.css 
+2013-07-27 16:53:54 overwrite css/style.css 
+2013-07-27 16:55:22 overwrite css/style.css 
+2013-07-27 16:55:27 overwrite css/style.css 
+2013-07-27 16:55:31 overwrite css/style.css 
+2013-07-27 16:55:36 overwrite css/style.css 
+2013-07-27 16:56:08 overwrite css/style.css 
+2013-07-27 16:56:12 overwrite css/style.css 
+2013-07-27 16:56:36 overwrite css/style.css 
+2013-07-27 16:56:49 overwrite css/style.css 
+2013-07-27 16:56:54 overwrite css/style.css 
+2013-07-27 16:57:00 overwrite css/style.css 
+2013-07-27 16:57:14 overwrite css/style.css 
+2013-07-27 16:57:20 overwrite css/style.css 
+2013-07-27 16:58:21 overwrite css/style.css 
+2013-07-27 16:58:25 overwrite css/style.css 
+2013-07-27 16:58:34 overwrite css/style.css 
+2013-07-27 16:58:45 overwrite css/style.css 
+2013-07-27 16:58:51 overwrite css/style.css 
+2013-07-27 17:04:10 overwrite css/style.css 
+2013-07-27 17:04:21 overwrite css/style.css 
+2013-07-27 17:04:27 overwrite css/style.css 
+2013-07-27 17:04:39 overwrite css/style.css 
+2013-07-27 17:04:55 overwrite css/style.css 
+2013-07-27 17:04:57 identical css/style.css 
+2013-07-27 17:05:03 overwrite css/style.css 
+2013-07-27 17:05:47 overwrite css/style.css 
+2013-07-27 17:05:51 identical css/style.css 
+2013-07-27 17:08:40 overwrite css/style.css 
+2013-07-27 17:08:55 overwrite css/style.css 
+2013-07-27 17:10:08 overwrite css/style.css 
+2013-07-27 17:10:35 overwrite css/style.css 
+2013-07-27 17:10:41 overwrite css/style.css 
+2013-07-27 17:10:54 overwrite css/style.css 
+2013-07-27 17:11:06 overwrite css/style.css 
+2013-07-27 17:11:18 overwrite css/style.css 
+2013-07-27 17:11:54 overwrite css/style.css 
+2013-07-27 17:11:56 overwrite css/style.css 
+2013-07-27 17:12:20 overwrite css/style.css 
+2013-07-27 17:12:26 overwrite css/style.css 
+2013-07-27 17:15:21 overwrite css/style.css 
+2013-07-27 17:15:35 overwrite css/style.css 
+2013-07-27 17:26:39 overwrite css/style.css 
+2013-07-27 17:26:44 overwrite css/style.css 
+2013-07-27 17:26:49 overwrite css/style.css 
+2013-07-27 17:26:57 overwrite css/style.css 
+2013-07-27 17:27:12 overwrite css/style.css 
+2013-07-27 17:27:30 overwrite css/style.css 
+2013-07-27 17:28:08 overwrite css/style.css 
+2013-07-27 17:28:14     error sass/style.scss (Line 42: Incompatible units: 'vh' and 'vw'.)
+2013-07-27 17:28:14 overwrite css/style.css 
+2013-07-27 17:28:28     error sass/style.scss (Line 39: Invalid CSS after "$main-block-top:": expected expression (e.g. 1px, bold), was ".main-block-1 {")
+2013-07-27 17:28:28 overwrite css/style.css 
+2013-07-27 17:28:46 overwrite css/style.css 
+2013-07-27 17:30:38 identical css/style.css 
+2013-07-27 17:31:04 overwrite css/style.css 
+2013-07-27 17:31:06 identical css/style.css 
+2013-07-27 17:31:09 overwrite css/style.css 
+2013-07-27 17:47:18 overwrite js/app.js
+2013-07-27 17:47:35 overwrite js/app.js
+2013-07-27 17:49:19 overwrite css/style.css 
+2013-07-27 17:49:35     error sass/style.scss (Line 23: Undefined mixin 'user-select'.)
+2013-07-27 17:49:35 overwrite css/style.css 
+2013-07-27 17:49:39     error sass/style.scss (Line 23: Undefined mixin 'user-select'.)
+2013-07-27 17:49:39 identical css/style.css 
+2013-07-27 17:49:56     error sass/style.scss (Line 5: Invalid CSS after "...user-interface"": expected selector or at-rule, was ".bg-wood {")
+2013-07-27 17:49:56 overwrite css/style.css 
+2013-07-27 17:50:05 overwrite css/style.css 
+2013-07-27 17:50:07 identical css/style.css 

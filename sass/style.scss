@@ -1,0 +1,62 @@
+
+@import "compass";
+@import "compass/css3/user-interface";
+
+.bg-wood {
+  @include background(image-url("bg_wood.png"));
+}
+
+
+
+/* main */
+.main-block {
+  position: absolute;
+  text-align: center;
+
+  width: 30vw;
+  height: 30vw;
+  padding: 2vw;
+
+  $gray-scale: 255;
+  background: rgba($gray-scale,$gray-scale,$gray-scale,1);
+  @include border-radius(5vw); 
+  @include box-shadow(2px 2px 5px rgba(0,0,0,0.5));
+  @include user-select(none); 
+
+  & [class^="icon-"]{
+    display: inline-block;
+    padding-top: 2vw;
+    font-size: 17vw;
+  }
+
+  & label {
+    display: block;
+    padding-top: 2vw;
+    font-size: 5vw;
+  }
+
+}
+
+$main-block-top: 20vw;
+.main-block-1 {
+  @extend .main-block;
+  left: 12vw;
+  top: 10vw + $main-block-top;
+}
+.main-block-2 {
+  @extend .main-block;
+  right: 12vw;
+  top: 10vw + $main-block-top;
+}
+.main-block-3 {
+  @extend .main-block;
+  left: 12vw;
+  top: 52vw + $main-block-top;
+}
+.main-block-4 {
+  @extend .main-block;
+  right: 12vw;
+  top: 52vw + $main-block-top;
+}
+
+

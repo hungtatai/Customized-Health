@@ -9,10 +9,12 @@
         </title>
       
         <link rel="stylesheet" href="css/app.css" />
+        <link rel="stylesheet" href="css/style.css" />
 
         <script src="/bower_components/jquery/jquery.js"></script>
         <script src="/bower_components/underscore/underscore.js"></script>
         
+        <script src="js/ratchet-patch.js"></script>
         <script src="js/app.js"></script>
         
         <%= livereload_js %>
@@ -21,21 +23,54 @@
       
 
       <nav class="bar-tab">
-          <ul class="tab-inner">
-            <li class="tab-item active">
-              <a href="#main">
-                <i class="icon-home icon-large tab-icon"></i>
-                <div class="tab-label">首頁</div>
-              </a>
-            </li>
-            <li class="tab-item">
-              <a href="#appli">
-                <i class="icon-laptop icon-large tab-icon"></i>
-                <div class="tab-label">電器</div>
-              </a>
-            </li>
-          </ul>
-        </nav>
+        <ul class="tab-inner">
+          <li class="tab-item active">
+            <a href="#main">
+              <i class="icon-gittip icon-large tab-icon icon-light"></i>
+              <div class="tab-label">營養</div>
+            </a>
+          </li>
+          <li class="tab-item">
+            <a href="#appli">
+              <i class="icon-map-marker icon-large tab-icon icon-light"></i>
+              <div class="tab-label">店家</div>
+            </a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="content bg-wood hide-nav" id="main-view">
+        <div class="main-block-1">
+          <i class="icon-edit"></i>
+          <label>我的報告</label>
+        </div>
+        <div class="main-block-2">
+          <i class="icon-food"></i>
+          <label>黃金餐點</label></div>
+        <div class="main-block-3">
+          <i class="icon-user-md"></i>
+          <label>健康資訊</label></div>
+        <div class="main-block-4">
+          <i class="icon-dribbble"></i>
+          <label>運動紀錄</label>
+        </div>
+      </div>
+
+      <div class="content bg-wood first-content" id="health-input-view">
+        <div class="input-group">
+          <div class="input-row">
+            <label>Full name</label>
+            <input type="text" placeholder="Mister Ratchet">
+          </div>
+          <div class="input-row">
+            <label>Email</label>
+            <input type="email" placeholder="ratchetframework@gmail.com">
+          </div>
+          <div class="input-row">
+            <label>Username</label>
+            <input type="text" placeholder="goRatchet">
+          </div>
+  </div>
 
     </body>
 </html>
