@@ -8,5 +8,10 @@ $(function() {
   $('.touch-area-hand-left').createVegetable('fish');
   $('.touch-area-hand-right').createVegetable('guava');
   $('.touch-area-leg-left').createVegetable('lotus');
-  return $('.touch-area-leg-right').createVegetable('mango');
+  $('.touch-area-leg-right').createVegetable('mango');
+  return $(window).resize(function() {
+    return $('.center').each(function() {
+      return $(this).height($(this).width());
+    });
+  }).resize();
 });

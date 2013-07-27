@@ -29,7 +29,12 @@ $.fn.createVegetable = (veg_name, n = 30) ->
     $(@).append(veg_t)
   @
 
-
+$.fn.cssvw = (key, val) ->
+  $(@).css(key, vw2px(val))
+  
 
 window.px2vw = (px) ->
   px / $(window).width() * 100
+
+window.vw2px = (vw) ->
+  $(window).width() / vw 

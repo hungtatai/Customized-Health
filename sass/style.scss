@@ -48,7 +48,7 @@ $cover-color: rgba(255, 0, 0, 0.5);
 
 
 /* main */
-%main-block {
+.main-block {
   position: absolute;
   text-align: center;
 
@@ -64,38 +64,42 @@ $cover-color: rgba(255, 0, 0, 0.5);
 
   & [class^="icon-"]{
     display: inline-block;
-    padding-top: 2%;
-    font-size: 17%;
+    padding-top: 10%;
+    font-size: 4em;
   }
 
   & label { 
     display: block;
     padding-top: 2%;
-    font-size: 5%;
+    font-size: 1.5em;
   }
 
 }
 
 $main-block-top: 20%;
 .main-block-1 {
-  @extend %main-block;
+  @extend .main-block;
   left: 12%;
   top: 10% + $main-block-top;
 }
 .main-block-2 {
-  @extend %main-block;
+  @extend .main-block;
   right: 12%;
   top: 10% + $main-block-top;
 }
 .main-block-3 {
-  @extend %main-block;
+  @extend .main-block;
   left: 12%;
   top: 52% + $main-block-top;
 }
 .main-block-4 {
-  @extend %main-block;
+  @extend .main-block;
   right: 12%;
   top: 52% + $main-block-top;
+}
+
+.main-center {
+
 }
 
 /* reciple */

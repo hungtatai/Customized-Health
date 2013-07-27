@@ -49,6 +49,14 @@ $.fn.createVegetable = function(veg_name, n) {
   return this;
 };
 
+$.fn.cssvw = function(key, val) {
+  return $(this).css(key, vw2px(val));
+};
+
 window.px2vw = function(px) {
   return px / $(window).width() * 100;
+};
+
+window.vw2px = function(vw) {
+  return $(window).width() / vw;
 };
