@@ -1478,9 +1478,23 @@ select {
   content: "On";
 }
 
-/* line 3, ../sass/_ratchet-patch.scss */
+/* line 2, ../sass/ratchet-patch.scss */
+.content {
+  display: none;
+}
+/* line 3, ../sass/ratchet-patch.scss */
 .content.hide-nav {
   bottom: 0px !important;
+}
+/* line 6, ../sass/ratchet-patch.scss */
+.content.hide-header {
+  top: 0px !important;
+}
+
+/* line 12, ../sass/ratchet-patch.scss */
+.input-row .inline-radio {
+  display: inline-block;
+  padding-top: 8px;
 }
 
 @font-face {
@@ -3685,9 +3699,4 @@ a .icon-rotate-90:before, a .icon-rotate-180:before, a .icon-rotate-270:before, 
 /* line 403, ../sass/_font-awesome.scss */
 .icon-renren:before {
   content: "\f18b";
-}
-
-/* line 4, ../sass/style.scss */
-.bg-wood {
-  background: url('/images/bg_wood.png?1374137898');
 }

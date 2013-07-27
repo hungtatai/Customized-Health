@@ -6,7 +6,7 @@ window.switchPage = (page_selector) ->
 		$('.content').hide()
 		target.show()
 
-		$('header').show()
+		$('header:invisible').show()
 		$('header').hide() if $(target).hasClass('hide-header')
 
 		$('nav').show()

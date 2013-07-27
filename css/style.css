@@ -1,17 +1,32 @@
-/* line 5, ../sass/style.scss */
+/* line 9, ../sass/style.scss */
+[class^="food"] {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  display: inline-block;
+  width: 8vw;
+  height: 8vw;
+}
+/* line 19, ../sass/style.scss */
+[class^="food"] img {
+  width: 8vw;
+  height: 8vw;
+}
+
+/* line 40, ../sass/style.scss */
 .bg-wood {
-  background: url('/images/bg_wood.png?1374137898');
+  background: url('/images/bg-wood.png?1374137898');
 }
 
 /* id */
-/* line 10, ../sass/style.scss */
+/* line 45, ../sass/style.scss */
 #health-input-view {
-  padding: 2vw;
+  padding: 5vh 6vw;
 }
 
 /* main */
-/* line 16, ../sass/style.scss */
-.main-block, .main-block-1, .main-block-2, .main-block-3, .main-block-4 {
+/* line 51, ../sass/style.scss */
+.main-block-1, .main-block-2, .main-block-3, .main-block-4 {
   position: absolute;
   text-align: center;
   width: 30vw;
@@ -30,39 +45,115 @@
   -moz-user-select: none;
   user-select: none;
 }
-/* line 30, ../sass/style.scss */
-.main-block [class^="icon-"], .main-block-1 [class^="icon-"], .main-block-2 [class^="icon-"], .main-block-3 [class^="icon-"], .main-block-4 [class^="icon-"] {
+/* line 65, ../sass/style.scss */
+.main-block-1 [class^="icon-"], .main-block-2 [class^="icon-"], .main-block-3 [class^="icon-"], .main-block-4 [class^="icon-"] {
   display: inline-block;
   padding-top: 2vw;
   font-size: 17vw;
 }
-/* line 36, ../sass/style.scss */
-.main-block label, .main-block-1 label, .main-block-2 label, .main-block-3 label, .main-block-4 label {
+/* line 71, ../sass/style.scss */
+.main-block-1 label, .main-block-2 label, .main-block-3 label, .main-block-4 label {
   display: block;
   padding-top: 2vw;
   font-size: 5vw;
 }
 
-/* line 45, ../sass/style.scss */
+/* line 80, ../sass/style.scss */
 .main-block-1 {
   left: 12vw;
   top: 30vw;
 }
 
-/* line 50, ../sass/style.scss */
+/* line 85, ../sass/style.scss */
 .main-block-2 {
   right: 12vw;
   top: 30vw;
 }
 
-/* line 55, ../sass/style.scss */
+/* line 90, ../sass/style.scss */
 .main-block-3 {
   left: 12vw;
   top: 72vw;
 }
 
-/* line 60, ../sass/style.scss */
+/* line 95, ../sass/style.scss */
 .main-block-4 {
   right: 12vw;
   top: 72vw;
+}
+
+/* reciple */
+/* line 102, ../sass/style.scss */
+.human-boy {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+  margin-left: 10vw;
+}
+/* line 109, ../sass/style.scss */
+.human-boy .human-img {
+  margin-top: 6vw;
+  width: 80vw;
+}
+/* line 114, ../sass/style.scss */
+.human-boy .touch-area-head, .human-boy .touch-area-chest, .human-boy .touch-area-belly, .human-boy .touch-area-hand-left, .human-boy .touch-area-hand-right, .human-boy .touch-area-leg-left, .human-boy .touch-area-leg-right {
+  position: absolute;
+  display: block;
+  overflow: hidden;
+}
+/* line 122, ../sass/style.scss */
+.human-boy .touch-area-head {
+  display: block;
+  left: 10vw;
+  top: 40vw;
+  width: 60vw;
+  height: 35vw;
+}
+/* line 128, ../sass/style.scss */
+.human-boy .touch-area-chest {
+  display: block;
+  left: 28vw;
+  top: 76vw;
+  width: 25vw;
+  height: 14vw;
+}
+/* line 134, ../sass/style.scss */
+.human-boy .touch-area-belly {
+  display: block;
+  left: 28vw;
+  top: 91vw;
+  width: 25vw;
+  height: 20vw;
+}
+/* line 140, ../sass/style.scss */
+.human-boy .touch-area-hand-left {
+  display: block;
+  left: 15vw;
+  top: 76vw;
+  width: 12vw;
+  height: 27vw;
+}
+/* line 146, ../sass/style.scss */
+.human-boy .touch-area-hand-right {
+  display: block;
+  left: 54vw;
+  top: 76vw;
+  width: 12vw;
+  height: 27vw;
+}
+/* line 152, ../sass/style.scss */
+.human-boy .touch-area-leg-left {
+  display: block;
+  left: 26vw;
+  top: 112vw;
+  width: 13vw;
+  height: 10vw;
+}
+/* line 158, ../sass/style.scss */
+.human-boy .touch-area-leg-right {
+  display: block;
+  left: 42vw;
+  top: 112vw;
+  width: 13vw;
+  height: 10vw;
 }

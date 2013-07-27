@@ -37,5 +37,5 @@ line_comments = true # by Fire.app
 sass_options = {:debug_info=>false} # by Fire.app 
 fireapp_less_options = {:yuicompress=>false, :verbose=>false, :color=>true, :ieCompat=>true, :strictImports=>false, :strictMath=>false, :strictUnits=>false} # by Fire.app 
 fireapp_disable_linecomments_and_debuginfo_on_build = true # by Fire.app 
-fireapp_coffeescript_options = {:bare=>false} # by Fire.app 
+fireapp_coffeescript_options = {:bare=>true} # by Fire.app 
 fireapp_livescript_options = {:bare=>false} # by Fire.app 

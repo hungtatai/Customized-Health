@@ -6,5 +6,11 @@
   &.hide-header {
     top: 0px !important;
   }
-
+  display: none;
 }
+
+.input-row .inline-radio {
+  display: inline-block;
+  padding-top: 8px;
+}
+

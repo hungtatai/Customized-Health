@@ -1,0 +1,18 @@
+/* line 2, ../sass/ratchet-patch.scss */
+.content {
+  display: none;
+}
+/* line 3, ../sass/ratchet-patch.scss */
+.content.hide-nav {
+  bottom: 0px !important;
+}
+/* line 6, ../sass/ratchet-patch.scss */
+.content.hide-header {
+  top: 0px !important;
+}
+
+/* line 12, ../sass/ratchet-patch.scss */
+.input-row .inline-radio {
+  display: inline-block;
+  padding-top: 8px;
+}

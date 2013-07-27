@@ -1,19 +1,54 @@
 
 @import "compass";
 @import "compass/css3/user-interface";
+//@import "food/*.png";
+//@include all-food-sprites;
+
+$cover-color: rgba(255, 0, 0, 0.5);
+
+[class^="food"] {
+  //position: absolute;
+  //left: 10vw;
+  //top: 10vw;
+  @include user-select(none); 
+  display: inline-block;
+  $size: 8vw;
+  width: $size;
+  height: $size;
+
+  & img {
+    
+    //margin-top: -$size/2;
+    //margin-left: -$size/2;
+    width: $size;
+    height: $size;
+  } 
+  
+  //@include background-size(cover);
+}
+
+@mixin pos($left, $top) {
+  display: block;
+  left: $left;
+  top: $top;
+}
+@mixin size($width, $height) {
+  width: $width;
+  height: $height;
+}
 
 .bg-wood {
-  @include background(image-url("bg_wood.png"));
+  @include background(image-url("bg-wood.png"));
 }
 
 /* id */
 #health-input-view {
-  padding:2vw;
+  padding: 5vh 6vw;
 }
 
 
 /* main */
-.main-block {
+%main-block {
   position: absolute;
   text-align: center;
 
@@ -33,7 +68,7 @@
     font-size: 17vw;
   }
 
-  & label {
+  & label { 
     display: block;
     padding-top: 2vw;
     font-size: 5vw;
@@ -43,24 +78,97 @@
 
 $main-block-top: 20vw;
 .main-block-1 {
-  @extend .main-block;
+  @extend %main-block;
   left: 12vw;
   top: 10vw + $main-block-top;
 }
 .main-block-2 {
-  @extend .main-block;
+  @extend %main-block;
   right: 12vw;
   top: 10vw + $main-block-top;
 }
 .main-block-3 {
-  @extend .main-block;
+  @extend %main-block;
   left: 12vw;
   top: 52vw + $main-block-top;
 }
 .main-block-4 {
-  @extend .main-block;
+  @extend %main-block;
   right: 12vw;
   top: 52vw + $main-block-top;
 }
+
+/* reciple */
+%human {
+  //background-repeat: no-repeat;
+  //background-position: center;
+  //@include background-size(cover);
+  @include user-select(none); 
+  $img-size: 80vw;
+  margin-left: (100vw - $img-size) / 2;
+  & .human-img {
+    margin-top: 6vw;
+    width: $img-size;
+  }
+
+  %touch-area {
+    position: absolute;
+    display: block;
+    overflow: hidden;
+    //background: $cover-color;
+
+  }
+
+  & .touch-area-head {
+    @extend %touch-area;
+    @include pos(10vw, 40vw);
+    @include size(60vw, 35vw);
+  }
+
+  & .touch-area-chest {
+    @extend %touch-area;
+    @include pos(28vw, 76vw);
+    @include size(25vw, 14vw);
+  }
+
+  & .touch-area-belly {
+    @extend %touch-area;
+    @include pos(28vw, 91vw);
+    @include size(25vw, 20vw);
+  }
+
+  & .touch-area-hand-left {
+    @extend %touch-area;
+    @include pos(15vw, 76vw);
+    @include size(12vw, 27vw);
+  }
+
+  & .touch-area-hand-right {
+    @extend %touch-area;
+    @include pos(54vw, 76vw);
+    @include size(12vw, 27vw);
+  }
+
+  & .touch-area-leg-left {
+    @extend %touch-area;
+    @include pos(26vw, 112vw);
+    @include size(13vw, 10vw);
+  }
+
+  & .touch-area-leg-right {
+    @extend %touch-area;
+    @include pos(42vw, 112vw);
+    @include size(13vw, 10vw);
+  }
+
+
+}
+
+.human-boy{
+  @extend %human;
+  //@include background-image(image-url("human-boy.jpg"))
+}
+
+
 
 
