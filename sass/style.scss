@@ -42,8 +42,13 @@ $cover-color: rgba(255, 0, 0, 0.5);
 }
 
 /* id */
-#health-input-view {
+#health-input-view, #news-view, #nutrition-view, #ideal-view {
   padding: 5vh 6%;
+}
+
+#store-map {
+  width: 100%;
+  height: 100%;
 }
 
 
@@ -72,6 +77,10 @@ $cover-color: rgba(255, 0, 0, 0.5);
     display: block;
     padding-top: 2%;
     font-size: 1.5em;
+  }
+
+  &.active {
+    @include box-shadow(inset 2px 2px 5px rgba(0,0,0,0.5));
   }
 
 }
@@ -114,15 +123,22 @@ $main-block-top: 20%;
   margin-right: auto;
 
   $size: 80%;
+  $offset: 1%;
   & .human-img {
     margin-top: 6%;
-    margin-left: (100% - $size) / 2;
+    margin-left: (100% - $size) / 2 ;
     width: $size;
+
+    &.boy{
+    }
+    &.girl{
+      margin-left: (100% - $size) / 2 - 2%;
+    }
   }
 
   %touch-area {
     position: absolute;
-    margin-left: (100% - $size) / 2;
+    margin-left: (100% - $size) / 2 ;
     display: block;
     overflow: hidden;
     //background: $cover-color;
@@ -131,43 +147,43 @@ $main-block-top: 20%;
 
   & .touch-area-head {
     @extend %touch-area;
-    @include pos(11%, 30%);
+    @include pos(11% + $offset, 30%);
     @include size(60%, 30%);
   }
 
   & .touch-area-chest {
     @extend %touch-area;
-    @include pos(28%, 61%);
+    @include pos(28% + $offset, 61%);
     @include size(25%, 9%);
   }
 
   & .touch-area-belly {
     @extend %touch-area;
-    @include pos(28%, 71%);
+    @include pos(28% + $offset, 71%);
     @include size(25%, 15%);
   }
 
   & .touch-area-hand-left {
     @extend %touch-area;
-    @include pos(15%, 61%);
+    @include pos(15% + $offset, 61%);
     @include size(12%, 22%);
   }
 
   & .touch-area-hand-right {
     @extend %touch-area;
-    @include pos(54%, 61%);
+    @include pos(54% + $offset, 61%);
     @include size(12%, 22%);
   }
 
   & .touch-area-leg-left {
     @extend %touch-area;
-    @include pos(26%, 87%);
+    @include pos(26% + $offset, 87%);
     @include size(13%, 10%);
   }
 
   & .touch-area-leg-right {
     @extend %touch-area;
-    @include pos(42%, 87%);
+    @include pos(42% + $offset, 87%);
     @include size(13%, 10%);
   }
 
@@ -179,6 +195,9 @@ $main-block-top: 20%;
   //@include background-image(image-url("human-boy.jpg"))
 }
 
+span.green {
+  color: tint(green, 20%);
+}
 
 
 

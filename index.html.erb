@@ -5,45 +5,80 @@
         <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
         <meta name="apple-mobile-web-app-capable" content="yes" />
         <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+        <meta name="baidu-tc-verification" content="fe4c7d1c9a02158b8dc76af73ad51a05" />
         <title>
         </title>
       
         <link rel="stylesheet" href="css/app.css" />
-        <link rel="stylesheet" href="css/compass-ratchet.css" />
+        <link rel="stylesheet" href="css/ratchet-patch.css" />
         <link rel="stylesheet" href="css/style.css" />
 
         <script src="/bower_components/jquery/jquery.js"></script>
         <script src="/bower_components/underscore/underscore.js"></script>
+        <script src="/bower_components/fastclick/lib/fastclick.js"></script>
         
-        <script src="js/jquery-vwh-patch.js"></script>
+
+        <script src="http://api.map.baidu.com/api?v=1.2&ak=E4805d16520de693a3fe707cdc962045"></script>
+        <script src="http://api.map.baidu.com/library/MarkerManager/1.2/src/MarkerManager_min.js"></script>
+
+        <script src="js/jstorage.min.js"></script>
+        <script src="js/jquery.blockUI.js"></script>
         <script src="js/jquery-plugin.js"></script>
         <script src="js/ratchet-patch.js"></script>
+        <script src="js/food-map.js"></script>
+        <script src="js/utils.js"></script>
         <script src="js/app.js"></script>
-        <meta name="baidu-tc-verification" content="fe4c7d1c9a02158b8dc76af73ad51a05" />
         
+        
+
         <%= livereload_js %>
+
+
     </head>
     <body>
       
+      <header class="bar-title">
+        <span class="button back-button">
+          <div class="touch-area"></div>
+          返回
+        </span>
+        <h1 class="title">InSnergy</h1>
+        <span class="button refresh-button">
+          <div class="touch-area"></div>
+          更新
+        </span>
+      </header>
 
       <nav class="bar-tab">
         <ul class="tab-inner">
-          <li class="tab-item active">
-            <a href="#main">
+          <li class="tab-item tab-item-1">
+            <span class="">
               <i class="icon-gittip icon-large tab-icon icon-light"></i>
-              <div class="tab-label">營養</div>
-            </a>
+              <div class="tab-label">量身訂做</div>
+            </span>
           </li>
-          <li class="tab-item">
-            <a href="#appli">
+          <li class="tab-item tab-item-2">
+            <span class="">
+              <i class="icon-book icon-large tab-icon icon-light"></i>
+              <div class="tab-label">營養總覽</div>
+            </span>
+          </li>
+          <li class="tab-item tab-item-3">
+            <span class="">
               <i class="icon-map-marker icon-large tab-icon icon-light"></i>
-              <div class="tab-label">店家</div>
-            </a>
+              <div class="tab-label">店家資訊</div>
+            </span>
+          </li>
+          <li class="tab-item tab-item-4">
+            <span class="">
+              <i class="icon-male icon-large tab-icon icon-light"></i>
+              <div class="tab-label">理想體態</div>
+            </span>
           </li>
         </ul>
       </nav>
 
-      <div class="content bg-wood hide-nav " id="main-view">
+      <div class="content bg-wood hide-nav hide-refresh hide-back first-content" id="main-view">
         <div class="center main-center">
           <div class="main-block-1">
             <i class="icon-edit"></i>
@@ -57,28 +92,40 @@
             <label>健康資訊</label></div>
           <div class="main-block-4">
             <i class="icon-dribbble"></i>
-            <label>運動紀錄</label>
+            <label>連結店家</label>
           </div>
         </div>
       </div>
 
-      <div class="content bg-wood " id="health-input-view">
+      <div class="content bg-wood hide-nav" id="health-input-view">
         <div class="input-group">
           <div class="input-row">
             <label>身高</label>
-            <input type="text" placeholder="(cm)">
+            <input type="text" id="height" placeholder="(cm)">
           </div>
           <div class="input-row">
             <label>體重</label>
-            <input type="text" placeholder="(kg)">
+            <input type="text" id="weight" placeholder="(kg)">
+          </div>
+          <div class="input-row">
+            <label>胸圍</label>
+            <input type="text" id="chest" placeholder="(cm)">
           </div>
           <div class="input-row">
             <label>腰圍</label>
-            <input type="text" placeholder="(cm)">
+            <input type="text" id="belly" placeholder="(cm)">
           </div>
           <div class="input-row">
             <label>臀圍</label>
-            <input type="text" placeholder="(cm)">
+            <input type="text" id="buttock" placeholder="(cm)">
+          </div>
+          <div class="input-row">
+            <label>手臂圍</label>
+            <input type="text" id="hand" placeholder="(cm)">
+          </div>
+          <div class="input-row">
+            <label>大腿圍</label>
+            <input type="text" id="leg" placeholder="(cm)">
           </div>
           <div class="input-row">
             <label>性別</label>
@@ -90,11 +137,11 @@
             </sapn>
           </div>
         </div>
-        <span class="button button-block">確定</span>
+        <span class="button button-block" id="save-health-button">確定</span>
       </div>
     
 
-      <div class="content bg-wood first-content" id="reciple-view">
+      <div class="content bg-wood " id="reciple-view">
         <div class="human-boy">
           <img class="human-img" src="/images/human-girl.png" />
 
@@ -106,10 +153,44 @@
           <div class="touch-area-leg-left"></div>
           <div class="touch-area-leg-right"></div>
         </div>
+        
+      </div>
 
-        <div class="food">
-          <img src="images/food/banana.png" />
-        </div>
+      <div class="content bg-wood " id="store-view">
+        <div id="store-map"></div>
+        
+      </div>
+
+      <div class="content bg-wood " id="nutrition-view">
+        <ul class="list" id="nutritionList">
+        </ul>
+        
+      </div>
+
+      <div class="content bg-wood " id="ideal-view">
+        <ul class="list" id="idealList">
+        </ul>
+        
+      </div>
+
+      <div class="content bg-wood hide-nav" id="news-view">
+        <ul class="list" id="newsList">
+          <li>
+            <a href="#">
+              <h2>1234</h2>
+              <div>1234</div>
+              <span class="chevron"></span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <h2>1234</h2>
+              <div>1234</div>
+              <span class="chevron"></span>
+            </a>
+          </li>
+          
+        </ul>
       </div>
     </body>
 </html>

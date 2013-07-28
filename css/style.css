@@ -20,12 +20,18 @@
 
 /* id */
 /* line 45, ../sass/style.scss */
-#health-input-view {
+#health-input-view, #news-view, #nutrition-view, #ideal-view {
   padding: 5vh 6%;
 }
 
+/* line 49, ../sass/style.scss */
+#store-map {
+  width: 100%;
+  height: 100%;
+}
+
 /* main */
-/* line 51, ../sass/style.scss */
+/* line 56, ../sass/style.scss */
 .main-block, .main-block-1, .main-block-2, .main-block-3, .main-block-4 {
   position: absolute;
   text-align: center;
@@ -45,45 +51,51 @@
   -moz-user-select: none;
   user-select: none;
 }
-/* line 65, ../sass/style.scss */
+/* line 70, ../sass/style.scss */
 .main-block [class^="icon-"], .main-block-1 [class^="icon-"], .main-block-2 [class^="icon-"], .main-block-3 [class^="icon-"], .main-block-4 [class^="icon-"] {
   display: inline-block;
   padding-top: 10%;
   font-size: 4em;
 }
-/* line 71, ../sass/style.scss */
+/* line 76, ../sass/style.scss */
 .main-block label, .main-block-1 label, .main-block-2 label, .main-block-3 label, .main-block-4 label {
   display: block;
   padding-top: 2%;
   font-size: 1.5em;
 }
+/* line 82, ../sass/style.scss */
+.main-block.active, .active.main-block-1, .active.main-block-2, .active.main-block-3, .active.main-block-4 {
+  -webkit-box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.5);
+  box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
 
-/* line 80, ../sass/style.scss */
+/* line 89, ../sass/style.scss */
 .main-block-1 {
   left: 12%;
   top: 30%;
 }
 
-/* line 85, ../sass/style.scss */
+/* line 94, ../sass/style.scss */
 .main-block-2 {
   right: 12%;
   top: 30%;
 }
 
-/* line 90, ../sass/style.scss */
+/* line 99, ../sass/style.scss */
 .main-block-3 {
   left: 12%;
   top: 72%;
 }
 
-/* line 95, ../sass/style.scss */
+/* line 104, ../sass/style.scss */
 .main-block-4 {
   right: 12%;
   top: 72%;
 }
 
 /* reciple */
-/* line 106, ../sass/style.scss */
+/* line 115, ../sass/style.scss */
 .human-boy {
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -92,72 +104,81 @@
   margin-left: auto;
   margin-right: auto;
 }
-/* line 117, ../sass/style.scss */
+/* line 127, ../sass/style.scss */
 .human-boy .human-img {
   margin-top: 6%;
   margin-left: 10%;
   width: 80%;
 }
-/* line 123, ../sass/style.scss */
+/* line 134, ../sass/style.scss */
+.human-boy .human-img.girl {
+  margin-left: 8%;
+}
+/* line 139, ../sass/style.scss */
 .human-boy .touch-area-head, .human-boy .touch-area-chest, .human-boy .touch-area-belly, .human-boy .touch-area-hand-left, .human-boy .touch-area-hand-right, .human-boy .touch-area-leg-left, .human-boy .touch-area-leg-right {
   position: absolute;
   margin-left: 10%;
   display: block;
   overflow: hidden;
 }
-/* line 132, ../sass/style.scss */
+/* line 148, ../sass/style.scss */
 .human-boy .touch-area-head {
   display: block;
-  left: 11%;
+  left: 12%;
   top: 30%;
   width: 60%;
   height: 30%;
 }
-/* line 138, ../sass/style.scss */
+/* line 154, ../sass/style.scss */
 .human-boy .touch-area-chest {
   display: block;
-  left: 28%;
+  left: 29%;
   top: 61%;
   width: 25%;
   height: 9%;
 }
-/* line 144, ../sass/style.scss */
+/* line 160, ../sass/style.scss */
 .human-boy .touch-area-belly {
   display: block;
-  left: 28%;
+  left: 29%;
   top: 71%;
   width: 25%;
   height: 15%;
 }
-/* line 150, ../sass/style.scss */
+/* line 166, ../sass/style.scss */
 .human-boy .touch-area-hand-left {
   display: block;
-  left: 15%;
+  left: 16%;
   top: 61%;
   width: 12%;
   height: 22%;
 }
-/* line 156, ../sass/style.scss */
+/* line 172, ../sass/style.scss */
 .human-boy .touch-area-hand-right {
   display: block;
-  left: 54%;
+  left: 55%;
   top: 61%;
   width: 12%;
   height: 22%;
 }
-/* line 162, ../sass/style.scss */
+/* line 178, ../sass/style.scss */
 .human-boy .touch-area-leg-left {
   display: block;
-  left: 26%;
+  left: 27%;
   top: 87%;
   width: 13%;
   height: 10%;
 }
-/* line 168, ../sass/style.scss */
+/* line 184, ../sass/style.scss */
 .human-boy .touch-area-leg-right {
   display: block;
-  left: 42%;
+  left: 43%;
   top: 87%;
   width: 13%;
   height: 10%;
+}
+
+/* line 198, ../sass/style.scss */
+span.green {
+  color: #339933;
 }

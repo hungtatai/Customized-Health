@@ -1,4 +1,6 @@
 
+@import "compass/css3/user-interface";
+
 .content {
   &.hide-nav { 
     bottom: 0px !important;
@@ -14,3 +16,24 @@
   padding-top: 8px;
 }
 
+.bar-title  {
+  $color: #0f7520;
+  background: $color;
+  @include user-select(none); 
+  & [class*="button"]{
+    background: shade($color, 40%);
+    border-color: shade($color, 60%);
+  }
+}
+.tab-item {
+  @include user-select(none); 
+  .tab-label {
+    padding-top: 2px;
+    font-size: 12px;
+    font-weight: normal;
+
+    &.active {
+
+    }
+  }
+}

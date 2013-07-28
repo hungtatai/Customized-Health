@@ -11,8 +11,6 @@ $.fn.randomRotate = ->
   $(@).rotate(Math.random() * 360)
   @
 
-
-
 $.fn.randomCreateVegetable = (veg_name, n = 30) ->
   veg = $("<div class=\"food\"> <img src=\"images/food/#{veg_name}.png\" /> </div>")
   for i in [1..n]

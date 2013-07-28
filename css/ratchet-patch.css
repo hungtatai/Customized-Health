@@ -1,18 +1,44 @@
-/* line 2, ../sass/ratchet-patch.scss */
+/* line 4, ../sass/ratchet-patch.scss */
 .content {
   display: none;
 }
-/* line 3, ../sass/ratchet-patch.scss */
+/* line 5, ../sass/ratchet-patch.scss */
 .content.hide-nav {
   bottom: 0px !important;
 }
-/* line 6, ../sass/ratchet-patch.scss */
+/* line 8, ../sass/ratchet-patch.scss */
 .content.hide-header {
   top: 0px !important;
 }
 
-/* line 12, ../sass/ratchet-patch.scss */
+/* line 14, ../sass/ratchet-patch.scss */
 .input-row .inline-radio {
   display: inline-block;
   padding-top: 8px;
+}
+
+/* line 19, ../sass/ratchet-patch.scss */
+.bar-title {
+  background: #0f7520;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+/* line 23, ../sass/ratchet-patch.scss */
+.bar-title [class*="button"] {
+  background: #094613;
+  border-color: #062e0c;
+}
+
+/* line 28, ../sass/ratchet-patch.scss */
+.tab-item {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+/* line 30, ../sass/ratchet-patch.scss */
+.tab-item .tab-label {
+  padding-top: 2px;
+  font-size: 12px;
+  font-weight: normal;
 }
