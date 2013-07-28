@@ -21,10 +21,11 @@ $.fn.randomCreateVegetable = (veg_name, n = 30) ->
   @
 
 $.fn.createVegetable = (veg_name, n = 30) ->
-  veg = $("<div class=\"food\"> <img src=\"images/food/#{veg_name}.png\" /> </div>")
+  veg = $("<div class=\"food\" data-food=\"#{veg_name}\"> <img src=\"images/food/#{veg_name}.png\" /> </div>")
   for i in [1..n]
     veg_t = veg.clone().randomRotate()
     $(@).append(veg_t)
+  $(@).data('food', veg_name)
   @
 
 $.fn.cssvw = (key, val) ->

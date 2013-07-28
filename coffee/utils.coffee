@@ -96,7 +96,7 @@ window.tools =
     window.api.getHeathFeed().done( (data) =>
       li = ""
       for enti in data.responseData.feed.entries
-        li += "<li><a href=\"#{enti.link}\"><h2>#{enti.title}</h2><div>#{enti.contentSnippet}</div><span class=\"chevron\"></span></a></li>"
+        li += "<li><a target=\"_blank\" href=\"#{enti.link}\"><h2>#{enti.title}</h2><div>#{enti.contentSnippet}</div><span class=\"chevron\"></span></a></li>"
 
       $('#newsList').empty().append(li);
       @hideLoading()
@@ -191,7 +191,7 @@ window.map =
         y : pixel.y + (if Math.random() > 0.5 then h else -h)
       newPoint = @map.pixelToPoint(newPixel)
       marker = new BMap.Marker(newPoint)
-      if realBounds.containsPoint(newPoint)
+      if not realBounds.containsPoint(newPoint)
         markers.push(marker)
         num--
 

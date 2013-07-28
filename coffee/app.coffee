@@ -38,6 +38,10 @@ $ ->
       tools.clickBack(-> switchPage("#main-view"))
     )
 
+  $(".main-block-4").click ->
+    switchPage("#about-view")
+    tools.clickBack(-> switchPage("#main-view"))
+
   $('.tab-item-1').click ->
     tools.updateReciple()
     sex = if $.jStorage.get("sex").toString().toUpperCase() == 'M' then 'boy' else 'girl'
@@ -46,9 +50,12 @@ $ ->
     tools.clickBack(-> switchPage("#main-view"))
 
   $('.tab-item-2').click ->
-    tools.updateNutrition()
-    switchPage('#nutrition-view')
-    tools.clickBack(-> switchPage("#main-view"))
+    try
+      tools.updateNutrition()
+      switchPage('#nutrition-view')
+      tools.clickBack(-> switchPage("#main-view"))
+    catch e
+      $('.tab-item-1').click()
 
   $('.tab-item-3').click ->
     switchPage('#store-view')
@@ -64,8 +71,16 @@ $ ->
     $.jStorage.set('sex', $('[name=sex]:checked').val())
     switchPage("#main-view")
 
+  $('#post-store-button').click ->
+    area_food = (part) -> $(".touch-area-#{part}").data('food')
+    url = "http://healthapp.duapp.com/my.php?head=#{area_food('head')}&chest=#{area_food('chest')}&belly=#{area_food('belly')}&hand=#{area_food('hand-left')}&leg=#{area_food('leg-left')}"
+    tools.showLoading()
+    $.get(url).done(-> tools.hideLoading()).fail(-> tools.hideLoading())
+
   $(document).on "switchpage", ->
     $(window).resize() if window.current_page == "#main-view"
 
+  
   window.map.init("store-map") 
-  #window.map.addRandomMarker(5)        
+  window.map.addRandomMarker(2)
+  

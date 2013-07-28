@@ -41,11 +41,12 @@ $.fn.createVegetable = function(veg_name, n) {
   if (n == null) {
     n = 30;
   }
-  veg = $("<div class=\"food\"> <img src=\"images/food/" + veg_name + ".png\" /> </div>");
+  veg = $("<div class=\"food\" data-food=\"" + veg_name + "\"> <img src=\"images/food/" + veg_name + ".png\" /> </div>");
   for (i = _i = 1; 1 <= n ? _i <= n : _i >= n; i = 1 <= n ? ++_i : --_i) {
     veg_t = veg.clone().randomRotate();
     $(this).append(veg_t);
   }
+  $(this).data('food', veg_name);
   return this;
 };
 

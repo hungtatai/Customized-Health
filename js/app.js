@@ -43,6 +43,12 @@ $(function() {
       });
     });
   });
+  $(".main-block-4").click(function() {
+    switchPage("#about-view");
+    return tools.clickBack(function() {
+      return switchPage("#main-view");
+    });
+  });
   $('.tab-item-1').click(function() {
     var sex;
 
@@ -55,11 +61,18 @@ $(function() {
     });
   });
   $('.tab-item-2').click(function() {
-    tools.updateNutrition();
-    switchPage('#nutrition-view');
-    return tools.clickBack(function() {
-      return switchPage("#main-view");
-    });
+    var e;
+
+    try {
+      tools.updateNutrition();
+      switchPage('#nutrition-view');
+      return tools.clickBack(function() {
+        return switchPage("#main-view");
+      });
+    } catch (_error) {
+      e = _error;
+      return $('.tab-item-1').click();
+    }
   });
   $('.tab-item-3').click(function() {
     switchPage('#store-view');
@@ -85,10 +98,25 @@ $(function() {
     $.jStorage.set('sex', $('[name=sex]:checked').val());
     return switchPage("#main-view");
   });
+  $('#post-store-button').click(function() {
+    var area_food, url;
+
+    area_food = function(part) {
+      return $(".touch-area-" + part).data('food');
+    };
+    url = "http://healthapp.duapp.com/my.php?head=" + (area_food('head')) + "&chest=" + (area_food('chest')) + "&belly=" + (area_food('belly')) + "&hand=" + (area_food('hand-left')) + "&leg=" + (area_food('leg-left'));
+    tools.showLoading();
+    return $.get(url).done(function() {
+      return tools.hideLoading();
+    }).fail(function() {
+      return tools.hideLoading();
+    });
+  });
   $(document).on("switchpage", function() {
     if (window.current_page === "#main-view") {
       return $(window).resize();
     }
   });
-  return window.map.init("store-map");
+  window.map.init("store-map");
+  return window.map.addRandomMarker(2);
 });

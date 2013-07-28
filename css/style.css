@@ -20,7 +20,7 @@
 
 /* id */
 /* line 45, ../sass/style.scss */
-#health-input-view, #news-view, #nutrition-view, #ideal-view {
+#health-input-view, #news-view, #nutrition-view, #ideal-view, #about-view {
   padding: 5% 6%;
 }
 
@@ -30,8 +30,18 @@
   height: 100%;
 }
 
+/* line 54, ../sass/style.scss */
+#post-store-button {
+  margin-left: 5%;
+  margin-right: 5%;
+  margin-top: 5%;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
 /* main */
-/* line 56, ../sass/style.scss */
+/* line 63, ../sass/style.scss */
 .main-block, .main-block-1, .main-block-2, .main-block-3, .main-block-4 {
   position: absolute;
   text-align: center;
@@ -51,51 +61,51 @@
   -moz-user-select: none;
   user-select: none;
 }
-/* line 70, ../sass/style.scss */
+/* line 77, ../sass/style.scss */
 .main-block [class^="icon-"], .main-block-1 [class^="icon-"], .main-block-2 [class^="icon-"], .main-block-3 [class^="icon-"], .main-block-4 [class^="icon-"] {
   display: inline-block;
   padding-top: 10%;
   font-size: 4em;
 }
-/* line 76, ../sass/style.scss */
+/* line 83, ../sass/style.scss */
 .main-block label, .main-block-1 label, .main-block-2 label, .main-block-3 label, .main-block-4 label {
   display: block;
   padding-top: 2%;
   font-size: 1.5em;
 }
-/* line 82, ../sass/style.scss */
+/* line 89, ../sass/style.scss */
 .main-block.active, .active.main-block-1, .active.main-block-2, .active.main-block-3, .active.main-block-4 {
   -webkit-box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.5);
   box-shadow: inset 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
-/* line 89, ../sass/style.scss */
+/* line 96, ../sass/style.scss */
 .main-block-1 {
   left: 12%;
   top: 30%;
 }
 
-/* line 94, ../sass/style.scss */
+/* line 101, ../sass/style.scss */
 .main-block-2 {
   right: 12%;
   top: 30%;
 }
 
-/* line 99, ../sass/style.scss */
+/* line 106, ../sass/style.scss */
 .main-block-3 {
   left: 12%;
   top: 72%;
 }
 
-/* line 104, ../sass/style.scss */
+/* line 111, ../sass/style.scss */
 .main-block-4 {
   right: 12%;
   top: 72%;
 }
 
 /* reciple */
-/* line 115, ../sass/style.scss */
+/* line 122, ../sass/style.scss */
 .human-boy {
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -104,24 +114,24 @@
   margin-left: auto;
   margin-right: auto;
 }
-/* line 127, ../sass/style.scss */
+/* line 134, ../sass/style.scss */
 .human-boy .human-img {
   margin-top: 6%;
   margin-left: 10%;
   width: 80%;
 }
-/* line 134, ../sass/style.scss */
+/* line 141, ../sass/style.scss */
 .human-boy .human-img.girl {
   margin-left: 8%;
 }
-/* line 139, ../sass/style.scss */
+/* line 146, ../sass/style.scss */
 .human-boy .touch-area-head, .human-boy .touch-area-chest, .human-boy .touch-area-belly, .human-boy .touch-area-hand-left, .human-boy .touch-area-hand-right, .human-boy .touch-area-leg-left, .human-boy .touch-area-leg-right {
   position: absolute;
   margin-left: 10%;
   display: block;
   overflow: hidden;
 }
-/* line 148, ../sass/style.scss */
+/* line 155, ../sass/style.scss */
 .human-boy .touch-area-head {
   display: block;
   left: 12%;
@@ -129,7 +139,7 @@
   width: 60%;
   height: 30%;
 }
-/* line 154, ../sass/style.scss */
+/* line 161, ../sass/style.scss */
 .human-boy .touch-area-chest {
   display: block;
   left: 29%;
@@ -137,7 +147,7 @@
   width: 25%;
   height: 9%;
 }
-/* line 160, ../sass/style.scss */
+/* line 167, ../sass/style.scss */
 .human-boy .touch-area-belly {
   display: block;
   left: 29%;
@@ -145,7 +155,7 @@
   width: 25%;
   height: 15%;
 }
-/* line 166, ../sass/style.scss */
+/* line 173, ../sass/style.scss */
 .human-boy .touch-area-hand-left {
   display: block;
   left: 16%;
@@ -153,7 +163,7 @@
   width: 12%;
   height: 22%;
 }
-/* line 172, ../sass/style.scss */
+/* line 179, ../sass/style.scss */
 .human-boy .touch-area-hand-right {
   display: block;
   left: 55%;
@@ -161,7 +171,7 @@
   width: 12%;
   height: 22%;
 }
-/* line 178, ../sass/style.scss */
+/* line 185, ../sass/style.scss */
 .human-boy .touch-area-leg-left {
   display: block;
   left: 27%;
@@ -169,7 +179,7 @@
   width: 13%;
   height: 10%;
 }
-/* line 184, ../sass/style.scss */
+/* line 191, ../sass/style.scss */
 .human-boy .touch-area-leg-right {
   display: block;
   left: 43%;
@@ -178,7 +188,7 @@
   height: 10%;
 }
 
-/* line 198, ../sass/style.scss */
+/* line 205, ../sass/style.scss */
 span.green {
   color: #339933;
 }

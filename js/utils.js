@@ -131,7 +131,7 @@ window.tools = {
       _ref = data.responseData.feed.entries;
       for (_i = 0, _len = _ref.length; _i < _len; _i++) {
         enti = _ref[_i];
-        li += "<li><a href=\"" + enti.link + "\"><h2>" + enti.title + "</h2><div>" + enti.contentSnippet + "</div><span class=\"chevron\"></span></a></li>";
+        li += "<li><a target=\"_blank\" href=\"" + enti.link + "\"><h2>" + enti.title + "</h2><div>" + enti.contentSnippet + "</div><span class=\"chevron\"></span></a></li>";
       }
       $('#newsList').empty().append(li);
       return _this.hideLoading();
@@ -244,7 +244,7 @@ window.map = {
       };
       newPoint = this.map.pixelToPoint(newPixel);
       marker = new BMap.Marker(newPoint);
-      if (realBounds.containsPoint(newPoint)) {
+      if (!realBounds.containsPoint(newPoint)) {
         markers.push(marker);
         num--;
       }
